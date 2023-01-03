@@ -35,7 +35,7 @@ cloudinary.config({
 
 //cors options
 const corsOptions = {
-  origin: true,
+  origin: ['http://localhost:3000','https://choco-box.netlify.app'],
   credentials: true,
 };
 
